@@ -14,6 +14,7 @@ function criarFigurinha(){
     const img = document.createElement("img");
 
    const imagens = [
+       
     "figurinha.png",
     "figurianha2.png",
 ];
