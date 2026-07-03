@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>ideias</title>
+
+<link rel="stylesheet" href="css/menu.css">
+</head>
+<body>
+
+<header>
+
+<h1>ideias ai, sao boas</h1>
+
+<input type="text" placeholder="🔍 Pesquisar coisas..">
+
+</header>
+
+<section class="categorias">
+
+<button class="ativo">ideias de lugares</button>
+<button>vou add alguma coisa aqui</button>
+<button>vou add alguma coisa aqui</button>
+<button>vou add alguma coisa aqui</button>
+
+</section>
+
+<section class="produtos">
+
+<div class="card">
+
+<img src="img/shopping.jpg">
+
+<h2>shopping estação ou goiabeiras</h2>
+
+<p> abra para voce ver a minha opinião</p>
+
+<div class="baixo">
+
+<span>R$ um abraço</span>
+
+<button onclick="abrirProduto('shopping estação ou goiabeiras')">+</button>
+
+</div>
+
+</div>
+
+<div class="card">
+
+<img src="img/parq.jpg">
+
+<h2>parques</h2>
+
+<p>qual tipo de parques pode ser todos os tipo parque com aguas ver vc de biquine("to brincando se vc aparecer assim ficou todo nervoso ate desaprendo português") </p>
+
+<div class="baixo">
+
+<span>R$ ver voce</span>
+
+<button onclick="abrirProduto('parques')">+</button>
+</div>
+
+</div>
+
+<div class="card">
+
+<img src="img/aranha.jpg">
+
+<h2>assistir homem aranha um novo dia</h2>
+
+<p>homem aranha muito bom so alegria.</p>
+
+<div class="baixo">
+
+<span>R$ abraço</span>
+
+<button onclick="abrirProduto('assistir homem aranha um novo dia')">+</button>
+
+</div>
+
+</div>
+
+<div class="card">
+
+<img src="img/museus.jpg">
+
+<h2>cara vou colocar varia locais na decrição so ir no + para ver</h2>
+
+<p>olha temos muitos lugares uma cafeteria  teria que ser de amanha ai fica mais dificil mais eu dou um jeito temos museu sepre quis ir com alg diferente e legal hamburgueria tematica tbm e muito tope .</p>
+
+<div class="baixo">
+
+<span>R$ ver você</span>
+
+<button onclick="abrirProduto('Espresso')">+</button>
+
+</div>
+
+</div>
+
+</section>
+
+<script src="js/menu.js"></script>
+
+<audio id="musica" loop>
+    <source src="deusa.mp3" type="audio/mpeg">
+</audio>
+
+<script>
+document.addEventListener("click", () => {
+    document.getElementById("musica").play();
+}, { once: true });
+</script>
+
+</body>
+</html>

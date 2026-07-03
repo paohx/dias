@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Produto</title>
+
+<link rel="stylesheet" href="css/produto.css">
+</head>
+
+<body>
+
+<div class="container">
+
+    <a href="menu.html" class="voltar">←</a>
+
+    <img id="fotoProduto" class="foto">
+
+    <h1 id="nomeProduto"></h1>
+
+<h2 id="preco"></h2>
+
+    <div class="estrelas">⭐⭐⭐⭐⭐</div>
+
+    <p id="descricao" class="descricao"></p>
+
+    
+ 
+        <div id="figurinhas"></div>
+
+         <!-- FORMSPREE -->
+   <form action="https://formspree.io/f/xkolpvnr" method="POST">
+
+  <input type="hidden" name="produto" id="produtoInput">
+  <input type="hidden" name="preco" id="precoInput">
+  <button type="submit" class="comprar">Comprar</button>
+
+</form>
+    </div>
+
+   
+
+   
+
+</div>
+
+<script src="js/produto.js"></script>
+
+<audio id="musica" loop>
+    <source src="deusa.mp3" type="audio/mpeg">
+</audio>
+
+<script>
+document.addEventListener("click", () => {
+    document.getElementById("musica").play();
+}, { once: true });
+</script>
+
+</body>
+</html>
