@@ -8,28 +8,28 @@ const preco = document.getElementById("preco");
 const produtos = {
     "shopping estação ou goiabeiras": {
         nome: "Shopping Estação ou Goiabeiras",
-        foto: "img/shopping.jpg",
+        foto: "shopping.jpg",
         preco: "R$ Um abraço",
         descricao: "olha o shopping estação nao sei oq tem la de legau no goiabeiras tem lugar para jogar e um lugar cheio de pula pula."
     },
 
     "parques": {
         nome: "Parques",
-        foto: "img/parq.jpg",
+        foto: "parq.jpg",
         preco: "R$ Ver você",
         descricao: "parque normal ou com agua ou qual quer outra coisa olha se for um Olha esse por um Acqua park pelo menos vou ver você de biquíni (tô brincando piada provavelmente aí fica com vergonha e ia ficar no canto falando um monte de coisa de Net e olhando para o chão ou encarando vc)."
     },
 
     "assistir homem aranha um novo dia": {
         nome: "Assistir Homem-Aranha: Um Novo Dia",
-        foto: "img/aranha.jpg",
+        foto: "aranha.jpg",
         preco: "R$ abraço",
         descricao: "homem aranha muito bom so alegria."
     },
 
     "Espresso": {
         nome: "cara vou colocar varia locais na decrição so ir no + para ver",
-        foto: "img/museus.jpg",
+        foto: "museus.jpg",
         preco: "R$ ver você",
         descricao: "olha temos muitos lugares uma cafeteria  teria que ser de amanha ai fica mais dificil mais eu dou um jeito temos museu sepre quis ir com alg diferente e legal hamburgueria tematica tbm e muito tope ."
     }
@@ -96,8 +96,8 @@ function criarFigurinha() {
     const img = document.createElement("img");
 
     const imagens = [
-        "img/figurinha.png",
-        "img/figurianha2.png"
+        "figurinha.png",
+        "figurianha2.png"
     ];
 
     img.src = imagens[Math.floor(Math.random() * imagens.length)];
