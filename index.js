@@ -14,8 +14,8 @@ function criarFigurinha(){
     const img = document.createElement("img");
 
    const imagens = [
-    "img/figurinha.png",
-    "img/figurianha2.png",
+    "figurinha.png",
+    "figurianha2.png",
 ];
 
 img.src = imagens[Math.floor(Math.random() * imagens.length)]; // troque pela sua imagem
